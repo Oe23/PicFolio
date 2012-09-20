@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183F5655160BAD1900E53320 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183F5654160BAD1900E53320 /* UIKit.framework */; };
+		183F5657160BAD1900E53320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183F5656160BAD1900E53320 /* Foundation.framework */; };
+		183F5659160BAD1900E53320 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183F5658160BAD1900E53320 /* CoreGraphics.framework */; };
+		183F565B160BAD1900E53320 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183F565A160BAD1900E53320 /* CoreData.framework */; };
+		183F5661160BAD1900E53320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 183F565F160BAD1900E53320 /* InfoPlist.strings */; };
+		183F5663160BAD1900E53320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F5662160BAD1900E53320 /* main.m */; };
+		183F5667160BAD1A00E53320 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F5666160BAD1A00E53320 /* AppDelegate.m */; };
+		183F566A160BAD1A00E53320 /* Pic_folio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 183F5668160BAD1A00E53320 /* Pic_folio.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183F5650160BAD1900E53320 /* Pic-folio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pic-folio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		183F5654160BAD1900E53320 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		183F5656160BAD1900E53320 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		183F5658160BAD1900E53320 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		183F565A160BAD1900E53320 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		183F565E160BAD1900E53320 /* Pic-folio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pic-folio-Info.plist"; sourceTree = "<group>"; };
+		183F5660160BAD1900E53320 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		183F5662160BAD1900E53320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183F5664160BAD1900E53320 /* Pic-folio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pic-folio-Prefix.pch"; sourceTree = "<group>"; };
+		183F5665160BAD1A00E53320 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		183F5666160BAD1A00E53320 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		183F5669160BAD1A00E53320 /* Pic_folio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pic_folio.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183F564D160BAD1900E53320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183F5655160BAD1900E53320 /* UIKit.framework in Frameworks */,
+				183F5657160BAD1900E53320 /* Foundation.framework in Frameworks */,
+				183F5659160BAD1900E53320 /* CoreGraphics.framework in Frameworks */,
+				183F565B160BAD1900E53320 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183F5645160BAD1900E53320 = {
+			isa = PBXGroup;
+			children = (
+				183F565C160BAD1900E53320 /* Pic-folio */,
+				183F5653160BAD1900E53320 /* Frameworks */,
+				183F5651160BAD1900E53320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183F5651160BAD1900E53320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183F5650160BAD1900E53320 /* Pic-folio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183F5653160BAD1900E53320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183F5654160BAD1900E53320 /* UIKit.framework */,
+				183F5656160BAD1900E53320 /* Foundation.framework */,
+				183F5658160BAD1900E53320 /* CoreGraphics.framework */,
+				183F565A160BAD1900E53320 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183F565C160BAD1900E53320 /* Pic-folio */ = {
+			isa = PBXGroup;
+			children = (
+				183F5665160BAD1A00E53320 /* AppDelegate.h */,
+				183F5666160BAD1A00E53320 /* AppDelegate.m */,
+				183F5668160BAD1A00E53320 /* Pic_folio.xcdatamodeld */,
+				183F565D160BAD1900E53320 /* Supporting Files */,
+			);
+			path = "Pic-folio";
+			sourceTree = "<group>";
+		};
+		183F565D160BAD1900E53320 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183F565E160BAD1900E53320 /* Pic-folio-Info.plist */,
+				183F565F160BAD1900E53320 /* InfoPlist.strings */,
+				183F5662160BAD1900E53320 /* main.m */,
+				183F5664160BAD1900E53320 /* Pic-folio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183F564F160BAD1900E53320 /* Pic-folio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183F566D160BAD1A00E53320 /* Build configuration list for PBXNativeTarget "Pic-folio" */;
+			buildPhases = (
+				183F564C160BAD1900E53320 /* Sources */,
+				183F564D160BAD1900E53320 /* Frameworks */,
+				183F564E160BAD1900E53320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pic-folio";
+			productName = "Pic-folio";
+			productReference = 183F5650160BAD1900E53320 /* Pic-folio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183F5647160BAD1900E53320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Oscar Edmond";
+			};
+			buildConfigurationList = 183F564A160BAD1900E53320 /* Build configuration list for PBXProject "Pic-folio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 183F5645160BAD1900E53320;
+			productRefGroup = 183F5651160BAD1900E53320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183F564F160BAD1900E53320 /* Pic-folio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183F564E160BAD1900E53320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183F5661160BAD1900E53320 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183F564C160BAD1900E53320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183F5663160BAD1900E53320 /* main.m in Sources */,
+				183F5667160BAD1A00E53320 /* AppDelegate.m in Sources */,
+				183F566A160BAD1A00E53320 /* Pic_folio.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		183F565F160BAD1900E53320 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183F5660160BAD1900E53320 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183F566B160BAD1A00E53320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		183F566C160BAD1A00E53320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183F566E160BAD1A00E53320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pic-folio/Pic-folio-Prefix.pch";
+				INFOPLIST_FILE = "Pic-folio/Pic-folio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		183F566F160BAD1A00E53320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pic-folio/Pic-folio-Prefix.pch";
+				INFOPLIST_FILE = "Pic-folio/Pic-folio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183F564A160BAD1900E53320 /* Build configuration list for PBXProject "Pic-folio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183F566B160BAD1A00E53320 /* Debug */,
+				183F566C160BAD1A00E53320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183F566D160BAD1A00E53320 /* Build configuration list for PBXNativeTarget "Pic-folio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183F566E160BAD1A00E53320 /* Debug */,
+				183F566F160BAD1A00E53320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		183F5668160BAD1A00E53320 /* Pic_folio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				183F5669160BAD1A00E53320 /* Pic_folio.xcdatamodel */,
+			);
+			currentVersion = 183F5669160BAD1A00E53320 /* Pic_folio.xcdatamodel */;
+			path = Pic_folio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 183F5647160BAD1900E53320 /* Project object */;
+}
